@@ -1,0 +1,23 @@
+.flex-display{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.infor{
+    flex-grow: 1;
+    padding: 10px;
+}
+.name{
+    color: #999;;
+}
+.non-deco{
+    text-decoration: none;
+}
+
+.myProfile{
+    width: 56px;
+    height:56px;
+    border-radius: 50%;
+    background-image: url("./assets/dasha_tarran.jpg");
+    background-size: cover;
+}
