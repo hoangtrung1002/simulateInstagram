@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     margin: 0;
+    background-color: #e5e5e54d;
 }
 
 .wrapper{
@@ -16,4 +17,7 @@ body{
 }
 .sidebar .footer{
     flex-grow:  1;
+}
+.main{
+    margin-right: 28px;
 }

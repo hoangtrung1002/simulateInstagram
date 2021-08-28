@@ -3,6 +3,11 @@
     flex-direction: row;
     align-items: center;
 }
+
+.cc{
+    margin: 10px 0px;    
+}
+
 .infor{
     flex-grow: 1;
     padding: 10px;

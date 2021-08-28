@@ -1,0 +1,11 @@
+.story-box{
+    height: 84px;
+    width:612px;
+    border: 1px solid #999;
+    background-color: #FFF;
+}
+
+.bb{
+    padding: 16px 0px;
+    margin-bottom: 24px;
+}
