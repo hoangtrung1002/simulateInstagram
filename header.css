@@ -8,13 +8,6 @@
     align-items: center;
 }
 
-/* .header .nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-} */
 .search-input , .image, .icons{
     flex-grow: 1;
 }
