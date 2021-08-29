@@ -24,3 +24,27 @@
     width: 100%;
     height: 614px;
 }
+
+.interact{
+    display: flex;
+    flex-direction: column;
+}
+
+.ll{
+    margin-top: 4px;
+    padding: 0px 16px;
+}
+
+.tt{
+    flex-basis: 40px;
+}
+
+.plane{
+    flex-grow: 1;
+}
+
+.like{
+    padding: 0px 16px;
+    margin: 5px 0 8px 0;
+    font-weight: 600;
+}

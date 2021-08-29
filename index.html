@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="post.css">
-    <link rel="stylesheet" href="./story.css">
-    <link rel="stylesheet" href="./footer.css">
-    <link rel="stylesheet" href="./header.css">
-    <link rel="stylesheet" href="./sug-user.css">
-    <link rel="stylesheet" href="./myProfile.css">
+    <!-- Link css -->
+    <link rel="stylesheet" href="./Components/post.css">
+    <link rel="stylesheet" href="./Components/story.css">
+    <link rel="stylesheet" href="./Components/footer.css">
+    <link rel="stylesheet" href="./Components/header.css">
+    <link rel="stylesheet" href="./Components/sug-user.css">
+    <link rel="stylesheet" href="./Components/myProfile.css">
     <link rel="stylesheet" href="./style.css">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
 </head>
 <body>
+    <!-- Start Header Component -->
     <div class="header">
             <div class="image">            
                 <img src="./assets/instagram.png" alt="logo">
@@ -22,15 +25,15 @@
                 <input type="text"placeholder="Search">
             </div>
             <div class="icons">
-                    <i class="fas fa-home fa-lg"></i>
-                    <i class="fab fa-facebook-messenger fa-lg"></i>
-                    <i class="far fa-plus-square fa-lg"></i>
-                    <i class="far fa-compass fa-lg"></i>
-                    <i class="far fa-heart fa-lg"></i>
-                    <div class="userProfile fa-lg"></div>              
-            </div>
-    
-    </div>
+                <i class="fas fa-home fa-lg"></i>
+                <i class="fab fa-facebook-messenger fa-lg"></i>
+                <i class="far fa-plus-square fa-lg"></i>
+                <i class="far fa-compass fa-lg"></i>
+                <i class="far fa-heart fa-lg"></i>
+                <div class="userProfile fa-lg"></div>              
+            </div>   
+    </div><!-- End Header Component -->
+
     <div class="wrapper">
         <div class="main">
             <!-- Start Story Component -->
@@ -50,13 +53,22 @@
                         <img class="fit" src="./assets/dasha_tarran.jpg" alt="post">
                     </div>
                     <div class="interact">
-                        asdasdadasd
+                        <section class="flex-display ll">
+                            <span class="tt"><i class="tt far fa-heart fa-2x"></i></span>
+                            <span class="tt"><i class="tt far fa-comment fa-2x"></i></span>
+                            <span class="plane"><i class="far fa-paper-plane fa-2x"></i></span>
+                            <span><i class="far fa-bookmark fa-2x"></i></span>
+                        </section>
+                        <section class="like">
+                            <div>2,111 likes</div>
+                        </section>
                     </div>              
                 </article>
             </div><!-- End User's Posts -->
 
         </div>
         <div class="sidebar">
+            <!--Start  Profile User -->
             <div class="flex-display cc">
                 <div class="myProfile"></div>
                     <div class="infor">
@@ -64,7 +76,9 @@
                         <div class="name">hoangtrng</div>
                     </div>
                     <a class="non-deco" href="#">Switch</a>
-            </div>
+            </div><!--End  Profile User -->
+
+            <!--Start Suggestions User  -->
             <div class="container">
                 <div class="sug">
                     <div class="sug-user">Suggestions For You</div>
@@ -96,7 +110,8 @@
                         <a class="non-deco" href="#">Follow</a>
                     </div>
                 </div>   
-            </div>
+            </div><!--End Suggestions User  -->
+            <!-- Footer -->
             <div class="footer">
                 <nav class="navi">
                     <ul>
@@ -113,12 +128,11 @@
                         <li><a class="content" href="#">Language</a></li>
                     </ul>
                 </nav>
-                
                 <span class="copy-right">@ 2021 Instagram  from Facebook</span>
-            </div>
+            </div><!-- End Footer -->
         </div>
     </div>
 
-    <script src="https://kit.fontawesome.com/fb9fd202dd.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/fb9fd202dd.js" crossorigin="anonymous"></script>
 </body>
 </html>
