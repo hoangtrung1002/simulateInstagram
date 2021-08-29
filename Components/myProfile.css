@@ -5,7 +5,8 @@
 }
 
 .cc{
-    margin: 10px 0px;    
+    padding-top: 15px;
+    margin: 12px 0px;    
 }
 
 .infor{
@@ -23,6 +24,6 @@
     width: 56px;
     height:56px;
     border-radius: 50%;
-    background-image: url("./assets/dasha_tarran.jpg");
+    background-image: url("../assets/dasha_tarran.jpg");
     background-size: cover;
 }

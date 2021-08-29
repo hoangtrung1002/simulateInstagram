@@ -22,7 +22,7 @@
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background-image: url("/assets/dasha_tarran.jpg");
+    background-image: url("../assets/dasha_tarran.jpg");
     background-size: cover;
 }
 .item-user{
